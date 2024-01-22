@@ -1,0 +1,115 @@
+body {
+  font-family: "Fragment Mono", monospace;
+}
+
+.gradient-background {
+  background: linear-gradient(-45deg, #377aaf, #3bbbb3, #79dc96);
+}
+
+.btn-custom {
+  background-color: #377aaf;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-light {
+  background-color: #377aaf;
+  color: white;
+  border: 2px solid #377aaf;
+}
+
+.btn-light:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+.btn-outline-light {
+  border: solid 2px white;
+}
+
+nav {
+  background-color: black;
+}
+
+.resume-nav {
+  color: #79dc96;
+}
+
+.footer-background {
+  background-color: black;
+}
+
+.headshot {
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding-bottom: 5px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  /*background-color: #377aaf;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;*/
+  background-color: grey;
+  color: black;
+  border: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/*input[type="submit"]:hover {
+  background-color: #79dc96;
+}*/
+
+.about-bg {
+  background-color: #377aaf;
+}
+
+#about > h2,
+#about p {
+  color: white;
+}
+
+.disabled-p {
+  font-size: small;
+  color: red;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+hr {
+  border-top: 2px solid #377aaf;
+}
+
+ul {
+  color: #585858;
+}
